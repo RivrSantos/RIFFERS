@@ -7,7 +7,7 @@ body {
     color: #fff;
     text-align: center;
     }
-.form {
+    .form {
     padding: 0px;
     position: sticky;
     width: 500px;
@@ -38,13 +38,13 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: rgb(57, 112, 206);
     }
-.container {
+    .container {
     padding: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
     }
-.box {
+    .box {
     display: block;
     padding: 0px;
     padding-top: 60px;
