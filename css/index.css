@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    background: url("images/mymot.jpg") no-repeat center center fixed;
+    background: url("assets/mymot.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     text-align: center;
