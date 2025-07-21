@@ -1,81 +1,54 @@
+/* Define imagem de fundo */
 body {
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
-    background-color: #0f172a;
+    background-image: url('../assets/mymot.jpg'); /* Caminho da imagem */
     background-size: cover;
-    color: #0f172a;
-    text-align: center;
-    }
-    .form {
-    padding: 0px;
-    position: sticky;
-    width: 500px;
-    border-left: 100px;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    }
-h1 {
-    margin-bottom: 20px;
-    }
-input {
-    padding: 15px;
-    bottom: 10px;
-    width: 300px;
-    border-radius: 5px;
-    background: rgb(255, 255, 255);
-    color: rgb(26, 110, 166);
-    }
-input:hover {
-    background: rgb(232, 241, 245);
-    }
-input[type="submit"] {
-    background-color: rgb(226, 229, 233);
-    width: 30%;
-    cursor: pointer;
-    }
-input[type="submit"]:hover {
-    background-color: rgb(57, 112, 206);
-    }
-    .container {
-    padding: 170px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-    .box {
-    display: block;
-    padding: 0px;
-    padding-top: 60px;
-    padding-right: 0px;
-    padding-bottom: 40px;
-    border: 5px groove #222;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    max-width: 500px;
-    width: 100%;
-    }
-form button {
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    height: 100vh;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-    }
+/* Centraliza conteúdo */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    backdrop-filter: blur(4px); /* efeito sutil no fundo */
+}
 
-.btn-primary {
-    background-color: var(--accent-color);
-    color: var(--bg-color);
-    }
+.box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
 
-.btn-primary:hover {
-    background-color: var(--accent-hover);
-    transform: translateY(-2px);
-    }
+/* Responsivo */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
