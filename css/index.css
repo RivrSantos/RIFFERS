@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: url("images/mymot.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    }
+.form {
+    padding: 0px;
+    position: sticky;
+    width: 500px;
+    border-left: 100px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    }
+h1 {
+    margin-bottom: 20px;
+    }
+input {
+    padding: 15px;
+    bottom: 10px;
+    width: 300px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(26, 110, 166);
+    }
+input:hover {
+    background: rgb(232, 241, 245);
+    }
+input[type="submit"] {
+    background-color: rgb(226, 229, 233);
+    width: 30%;
+    cursor: pointer;
+    }
+input[type="submit"]:hover {
+    background-color: rgb(57, 112, 206);
+    }
+.container {
+    padding: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.box {
+    display: block;
+    padding: 0px;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    border: 5px groove #222;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    }
+/* form button { */
+/* } */
