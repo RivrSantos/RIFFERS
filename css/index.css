@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../assets/mymot.jpg'); /* Caminho da imagem */
+    background-image: url('assets/mymot.jpg'); /* Caminho da imagem */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,9 @@ body {
     max-width: 400px;
     text-align: center;
 }
-
+.h2 {
+    color: white;
+}
 /* Responsivo */
 input[type="text"],
 input[type="password"],
