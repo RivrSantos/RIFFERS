@@ -23,7 +23,7 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  background: url('bg-moto.jpg') no-repeat center center fixed;
+  background: url('assets/mymot.jpg') no-repeat center center fixed;
   background-size: cover;
   color: var(--text-primary);
   min-height: 100vh;
