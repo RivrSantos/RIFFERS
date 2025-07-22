@@ -1,21 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Login do Sistema</title>
-    <link rel="stylesheet" href="css/index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu do Curso | Dr. Yamaha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="menu.css" />
 </head>
 <body>
-    <div id="index" class="container">
-        <div class="box">
-            <h2>Login Sistema</h2>
-            <form method="POST" action="painel.html">
-                <input type="text" name="usuario" placeholder="Usuário" required><br><br>
-                <input type="password" name="senha" placeholder="Senha" required><br><br>
-                <input type="submit" value="Entrar">
-            </form>
-        </div>
+  <nav id="main-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">Dr. Yamaha</a>
+      <ul class="nav-links">
+        <li><a href="cur.html">Curso Gratuito</a></li>
+        <li><a href="calcu.html">Calculadora</a></li>
+        <li><a href="ebook.html">Dicas</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+      </ul>
     </div>
+  </nav>
+
+  <main>
+    <div class="menu-container">
+      <h1>Bem-vindo!</h1>
+      <nav class="menu-links">
+        <a href="mecanica.html">Mecânica N1</a>
+        <a href="eletronica.html">Eletrônica N1</a>
+        <a href="injeçao.html">Injeção Eletrônica N1</a>
+        <a href="pilotagem.html">Pilotagem</a>
+        <a href="cuidados.html">Cuidados com a Motocicleta</a>
+        <a href="index.html" class="sair" onclick="return confirm('⚠️ Se sair, será necessário fazer login novamente. Deseja continuar?')">Sair</a>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://www.youtube.com/@DrYamaha" target="_blank" title="YouTube"></a>
+      <a href="https://www.instagram.com/dr.yamahaoficial/" target="_blank" title="Instagram"></a>
+      <a href="https://www.linkedin.com/in/dr-yamaha/" target="_blank" title="LinkedIn"></a>
+    </div>
+    <p>Dr. Yamaha © <span id="current-year">2025</span> - Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+
