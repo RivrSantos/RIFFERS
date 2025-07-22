@@ -22,23 +22,34 @@
 
   <main>
     <div class="menu-container">
-      <h1>Bem-vindo!</h1>
-      <nav class="menu-links">
-        <a href="mecanica.html">Mecânica N1</a>
-        <a href="eletronica.html">Eletrônica N1</a>
-        <a href="injeçao.html">Injeção Eletrônica N1</a>
-        <a href="pilotagem.html">Pilotagem</a>
-        <a href="cuidados.html">Cuidados com a Motocicleta</a>
-        <a href="index.html" class="sair" onclick="return confirm('⚠️ Se sair, será necessário fazer login novamente. Deseja continuar?')">Sair</a>
-      </nav>
+      <h1>Escolha seu módulo</h1>
+      <div class="menu-grid">
+        <a href="mecanica.html" class="menu-card">
+          🛠️ <span>Mecânica N1</span>
+        </a>
+        <a href="eletronica.html" class="menu-card">
+          💡 <span>Eletrônica N1</span>
+        </a>
+        <a href="injeçao.html" class="menu-card">
+          ⚙️ <span>Injeção N1</span>
+        </a>
+        <a href="pilotagem.html" class="menu-card">
+          🏍️ <span>Pilotagem</span>
+        </a>
+        <a href="cuidados.html" class="menu-card">
+          🔧 <span>Cuidados</span>
+        </a>
+        <a href="index.html" class="menu-card sair" onclick="return confirm('⚠️ Se sair, será necessário fazer login novamente. Deseja continuar?')"><span>Sair</span>
+        </a>
+      </div>
     </div>
   </main>
 
   <footer class="footer">
     <div class="social-icons">
-      <a href="https://www.youtube.com/@DrYamaha" target="_blank" title="YouTube"></a>
-      <a href="https://www.instagram.com/dr.yamahaoficial/" target="_blank" title="Instagram"></a>
-      <a href="https://www.linkedin.com/in/dr-yamaha/" target="_blank" title="LinkedIn"></a>
+      <a href="https://www.youtube.com/@DrYamaha" target="_blank" title="YouTube">🎥</a>
+      <a href="https://www.instagram.com/dr.yamahaoficial/" target="_blank" title="Instagram">📷</a>
+      <a href="https://www.linkedin.com/in/dr-yamaha/" target="_blank" title="LinkedIn">💼</a>
     </div>
     <p>Dr. Yamaha © <span id="current-year">2025</span> - Todos os direitos reservados</p>
   </footer>
@@ -48,4 +59,5 @@
   </script>
 </body>
 </html>
+
 
